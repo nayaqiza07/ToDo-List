@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ToDo List</title>
+    <link rel="stylesheet" href="assets/css/todo.css" />
+    <!-- Fonts -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Font Awesome -->
+    <script
+      src="https://kit.fontawesome.com/551b413631.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <div class="container">
+      <nav class="navigation">
+        <input type="checkbox" name="switch" id="switch" />
+        <!-- <div class="slider round"></div> -->
+        <em class="teksTheme">Light</em>
+      </nav>
+
+      <h1>My ToDo</h1>
+      <p class="logo">📋</p>
+      <p>
+        Type in the below field 👇 and press <br />
+        Enter to add your todo in the list
+      </p>
+      <form class="form">
+        <input
+          type="text"
+          id="task"
+          autocomplete="off"
+          placeholder="Eg: Workout"
+        />
+      </form>
+      <div class="wadah">
+        <ul id="list"></ul>
+      </div>
+      <div class="c"></div>
+    </div>
+    <script src="assets/js/todo.js"></script>
+  </body>
+</html>
